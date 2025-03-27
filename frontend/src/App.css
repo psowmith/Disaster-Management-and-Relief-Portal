@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles (optional) */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.app-container {
+  @apply flex flex-col min-h-screen;
+}
+
+.main-content {
+  @apply flex flex-1;
+}
+
+.page-content {
+  @apply flex-1 p-4;
+}

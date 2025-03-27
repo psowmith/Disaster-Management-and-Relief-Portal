@@ -1,0 +1,23 @@
+.disaster-context {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .disaster-loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--secondary-text);
+  }
+  
+  .disaster-item {
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+  }
+  
+  .disaster-item:hover {
+    background-color: var(--hover-bg);
+  }
+  
